@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/technicalDocumentation.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>CC14 Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Server_Client_Development"
+            >Client and Server - Side Development</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Client_Side_Dev">Client - Side Development</a></li>
+        <li><a class="nav-link" href="#Server_Side_Development">Server - Side Development</a></li>
+        <li>
+          <a class="nav-link" href="#HTML_Intro"
+            >HTML Introduction</a>
+        </li>
+        <li><a class="nav-link" href="#CSS_Intro">Introduction to CSS</a></li>
+        <li>
+          <a class="nav-link" href="#HTML_Formatting" id="html_for">HTML Formatting</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Web Application usually involves building the content in a logical and progressive manner. covering key concepts and skills for making wweb applications. 
+          </p>
+
+          <p>
+            This documentation assumes basic knowledge on HTML, CSS, and javascript
+          
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This documentation assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li> 
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials readily available online.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Server_Client_Development">
+        <header>Client - Side and Server - Side development</header>
+        <article>
+          <p>
+           Client-side and server side development are two distinct aspects of web development that involve different technologies,responsibilities and functionalities.
+          </p>
+        </article>
+        <section class="main-section" id="Client_Side_Dev">
+          <article>
+          <header>Client-side development:</header>
+          <p>
+            This refers to the activities that takes place in the user's device (most cases, a web browser) and involve the user interface and user experience.
+          </p>
+          <ul>
+          <li><h4>Technologies used:</h4></li>
+              <p>HTML (HyperText Markup Language), CSS (Cascading Style Sheets), JavaScript and other front-end frameworks like Angular and Vue.js</p> 
+          <li><h4>Responsibilities:</h4></li>
+            <ul>  
+            <li>Creating the actual elements on a webpage using HTML and styling it using CSS. </li>
+            <li>Implementing interactive and dynamic features by using JavaScript.</li>
+            <li>Managing the presentation parts and the user interactions</li>
+            </ul>
+          <li><h4>Advantages:</h4></li>
+            <ul>
+              <li>Faster loading of webpages</li>
+              <li>Reduces server load since certain operations are performed on the client's side.</li>
+              <li>Better user experience with dynamic and interactive elements.</li>
+            </ul>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Server_Side_Development">
+        <header>Server Side Development</header>
+        <article>
+          <p>Server side development involves activites that occur on the web server, managing and processing data, handling requests, and performing various server-related operations</p>
+          <ul>
+          <li><h4>Technologies Used:</h4></li>
+          <p>Server-side languages such as PHP, Python(Django),Ruby (Ruby on Rails),Java (Spring), and JavaScript (Node.js)</p>
+          <li><h4>Responsibilities:</h4></li>
+            <ul>
+              <li>Handling data storage and retrieval from databases.</li>
+              <li>Executing business logic and application functionality.</li>
+              <li>Managing user authentication and authorization.</li>
+              <li>Generating dynamic content to be sent to the client.</li>
+            </ul>
+            <h4>Advantages:</h4>
+              <ul>
+                <li>Enhanced Security as sensitive operations are performed in the server.</li>
+                <li>Centralized control over data and business logic.</li>
+                <li>Better scalability for handling a large number of users.</li>
+            </ul>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="HTML_Intro">
+        <header>HTML Introduction</header>
+        <p>
+          HTML is the standard markup language used to create and structure the content of webpages.
+        </p>
+        <p>
+          HTML5 is the latest version of HTML and it introduces new features and improvements over its previous iterations.
+        </p>
+        <p>
+          It provides tags and attributes that define the various elements of the webpage.
+        </p>
+        <h5>Here is an example of an HTML document:</h5>
+        <img src="/images/TechDoc/html_scr.png" alt="code_sample" width="600px" height="300px" >
+      </section>
+      <section class="main-section" id="CSS_Intro">
+        <header>CSS Introduction</header>
+        <article>
+          <p>
+            CSS or Cascading Style Sheets is used to style and layout the visual presentation of HTML elements.
+          </p>
+          <p>
+            It also allows to control the colors, fonts, spacing, and positioning of elements in a webpage.
+          </p>
+          <p>
+            CSS can be applied within an HTML document, a separate <strong>.css</strong> file, or in line with the actual HTML tag.
+          </p>
+          <h5>Here is an example of a CSS document</h5>
+          <img src="/images/TechDoc/css_scr.png" alt="External CSS file" width="500px" height="350px">
+          <img src="/images/TechDoc/css_scr2.png" alt="Inline CSS" width="600px" height="25px">
+        </article>
+      </section>
+      <section class="main-section" id="HTML_Formatting">
+        <header>HTML Formatting</header>
+        <article>
+          <p>
+            There are numerous ways to format an element in HTML. Those examples are:
+          </p>
+          <ul>
+            <li><code>strong - makes the element affected to be displayed on  <strong>bold</strong> text.</code></li>
+            <li><code>u - makes the element that is affected become <u>underlined</u>.</code></li>
+            <li><code>i - makes the element affected to be <i>italic</i>.</code></li>
+            <li><code>em - <em>emphasizes</em> the text affected.</code></li>
+            <li><code>abbr - defines a abbreviation or an <abbr>acronym</abbr></code></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
